@@ -1,0 +1,51 @@
+  .background {
+    /*width:100%;
+    background-size: cover;*/
+  }
+
+  .background-container {
+    background: url('MH---Background-image---2560X1477.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.right-square, .left-square {
+  width: 350px;
+  height: 350px;
+
+}
+.left-square {
+  border: 3px solid rgb(30,52,102);
+  background-color: transparent;
+}
+.right-square {
+  margin-top: 12%;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.square-row{
+  margin-top: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+.mh-logo {
+  max-width: 650px;
+  width: 100%;
+}
+
+.mh-logo-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-sq-col {
+  text-align: -webkit-right;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.right-sq-col {
+  padding-right: 0;
+  padding-left: 0;
+}
