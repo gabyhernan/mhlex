@@ -13,24 +13,82 @@
 .right-square, .left-square {
   width: 350px;
   height: 350px;
+  font-weight: 600;
 
 }
 .left-square {
-  border: 3px solid rgb(30,52,102);
   background-color: transparent;
+}
+
+.box1{
+  width: 100%;
+  height:  100%;
+}
+
+.box2 {
+  position:  absolute;
+  width: 350px;
+  height: 350px;
+  opacity: 0.3;
 }
 .right-square {
   margin-top: 12%;
-    background-color: white;
-    opacity: 0.3;
+}
+
+.contact {
+  font-size:  1.5rem;
+  color:  rgb(8,40,92);
+  letter-spacing: 2px;
+  margin-left: 7%;
+  font-family: 'Lora', sans-serif;
+  border-bottom:  3px solid;
+  margin-right: 7%;
+  padding-top: 3%;
+}
+
+.location-btn  {
+  width: 50px;
+  margin-top: -15%;
+}
+
+.location-info, .email-info {
+  margin-top: 8%;
+}
+.number-info{
+  line-height: 19px;
+  margin-top: 8%;
+}
+.phone-btn {
+  margin-top: -5%;
+}
+
+.phone-btn, .email-btn, .location-btn {
+  margin-left: 7%;
+ }
+
+.location-address , .number-info , .email-name {
+  display: -webkit-inline-box;
+  margin-left: 7%;
+}
+
+.location-address {
+  line-height: 18px;
+}
+
+.email-contact {
+  color:  rgb(8,40,92);
+  text-decoration: underline;
+}
+.phone-btn , .email-btn {
+  width: 50px;
 }
 
 .square-row{
-  margin-top: 3%;
+  margin-top: 4%;
   font-family: 'Roboto', sans-serif;
 }
 .mh-logo {
-  max-width: 650px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -48,4 +106,69 @@
 .right-sq-col {
   padding-right: 0;
   padding-left: 0;
+}
+
+
+
+
+@media(min-width: 400px) and (max-width: 600px) {
+ .container-fluid {
+  min-height: 750px;
+  }
+  .mh-logo-container{
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .left-sq-col {
+    text-align: -webkit-center;
+  }
+  .box1, .box2 {
+    width:  315px;
+    height:  315px;
+  }
+  .right-square{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+  }
+  .contact{
+    margin-right: 17%;
+  }
+
+}
+
+@media(min-width: 750px) {
+ .container-fluid {
+  min-height: 1024px;
+  }
+
+}
+
+
+@media(min-width: 751px) and (max-width: 993px) {
+  .left-sq-col, .right-sq-col {
+    width: 48%;
+    text-align: -webkit-auto;
+  }
+  .square-row{
+    margin-top: 7%;
+    margin-left: 3%;
+  }
+
+  }
+
+@media(min-width: 1024px) and (max-width: 1400px){
+  .background-container {
+    min-height: 780px;
+  }
+}
+
+@media (min-width: 1364px) and (min-height: 1020px) {
+  .background-container{
+    min-height: 1024px;
+  }
+  .square-row{
+    margin-top: 10%;
+  }
 }
