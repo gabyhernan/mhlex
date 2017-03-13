@@ -90,6 +90,7 @@
 .mh-logo {
   max-width: 500px;
   width: 100%;
+  margin-top: 3%;
 }
 
 .mh-logo-container {
@@ -128,14 +129,179 @@
     height:  315px;
   }
   .right-square{
-    margin-left: auto;
+    margin-left: 12%;
     margin-right: auto;
     margin-top: 3%;
   }
   .contact{
     margin-right: 17%;
   }
+  .box2{
+    opacity: 0.2;
+  }
 
+}
+
+@media(min-width: 321px) and (max-width: 399px) {
+ .container-fluid {
+  min-height: 750px;
+  }
+  .mh-logo-container{
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .left-sq-col {
+    text-align: -webkit-center;
+  }
+  .box1, .box2 {
+    width:  315px;
+    height:  315px;
+  }
+  .right-square{
+    margin-left: 8%;
+    margin-right: auto;
+    margin-top: 3%;
+  }
+  .contact{
+    margin-right: 17%;
+  }
+  .box2{
+    opacity: 0.2;
+  }
+
+}
+
+
+ /*landscape mobile views */
+@media(min-width: 200px) and (max-width: 320px) {
+ .container-fluid {
+   width: 117%;
+  }
+  .mh-logo-container{
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .left-sq-col {
+    text-align: -webkit-center;
+  }
+  .box1, .box2 {
+    width:  315px;
+    height:  315px;
+  }
+  .box2{
+    opacity: 0.2;
+  }
+  .right-square{
+    margin-left: 8%;
+    margin-right: auto;
+    margin-top: 3%;
+  }
+  .contact{
+    margin-right: 17%;
+  }
+}
+/*iphone 5 landscape */
+@media(min-width: 565px) and (min-height: 318px) {
+  .container-fluid {
+   min-height: 750px;
+   }
+   .mh-logo-container{
+     margin-top: 5%;
+     width: 80%;
+     margin-bottom: 5%;
+      text-align: -webkit-center;
+   }
+   .left-sq-col {
+     text-align: -webkit-center;
+   }
+   .box1, .box2 {
+     width:  315px;
+     height:  315px;
+   }
+   .right-square{
+     margin-left: 127px;
+     margin-right: auto;
+     margin-top: 1%;
+   }
+   .mh-logo{
+     max-width: 400px;
+   }
+   .contact{
+     margin-right: 17%;
+   }
+   .box2{
+     opacity: 0.2;
+   }
+}
+
+/*iphone 6 landscape */
+@media(min-width: 640px) and (min-height: 360px) {
+  .container-fluid {
+   min-height: 750px;
+   }
+   .mh-logo-container{
+     margin-top: 5%;
+     width: 80%;
+     margin-bottom: 5%;
+      text-align: -webkit-center;
+   }
+   .left-sq-col {
+     text-align: -webkit-center;
+   }
+   .box1, .box2 {
+     width:  315px;
+     height:  315px;
+   }
+   .right-square{
+     margin-left: 175px;
+     margin-right: auto;
+     margin-top: 1%;
+   }
+   .mh-logo{
+     max-width: 400px;
+   }
+   .contact{
+     margin-right: 17%;
+   }
+   .box2{
+     opacity: 0.2;
+   }
+}
+
+/*iphone6plus landscape*/
+@media(min-width: 730px) and (min-height: 400px) {
+  .container-fluid {
+   min-height: 750px;
+   }
+   .mh-logo-container{
+     margin-top: 5%;
+     width: 80%;
+     margin-bottom: 5%;
+      text-align: -webkit-center;
+   }
+   .left-sq-col {
+     text-align: -webkit-center;
+   }
+   .box1, .box2 {
+     width:  315px;
+     height:  315px;
+   }
+   .right-square{
+     margin-left: 29%;
+     margin-right: auto;
+     margin-top: 1%;
+   }
+   .mh-logo{
+     max-width: 400px;
+   }
+   .contact{
+     margin-right: 17%;
+   }
+   .box2{
+     opacity: 0.2;
+   }
 }
 
 @media(min-width: 750px) {
