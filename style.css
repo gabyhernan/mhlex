@@ -1,7 +1,8 @@
-  .background {
-    /*width:100%;
-    background-size: cover;*/
-  }
+html, body{
+  height:  100%;
+  width: 100%
+}
+
 
   .background-container {
     background: url('MH---Background-image---2560X1477.jpg');
@@ -29,7 +30,13 @@
   position:  absolute;
   width: 350px;
   height: 350px;
-  opacity: 0.3;
+  opacity: 1;
+  z-index: 0;
+}
+
+.contact, .location-info , .telephone-info, .email-info {
+  position:  relative;
+  z-index: 1
 }
 .right-square {
   margin-top: 12%;
@@ -109,9 +116,26 @@
   padding-left: 0;
 }
 
+footer {
+  position:  absolute;
+  width:  100%;
+  bottom:  0;
+  left:  0;
+}
+.copyright-text {
+  color:  white;
+  font-family: 'Lora', sans-serif;
+  text-align: -webkit-center;
+}
+
+.blue-line{
+  height:  3px;
+  background-color: rgb(8,40,92);
+}
 
 
 
+/* iphone6 plus portrait */
 @media(min-width: 400px) and (max-width: 600px) {
  .container-fluid {
   min-height: 750px;
@@ -136,8 +160,8 @@
   .contact{
     margin-right: 17%;
   }
-  .box2{
-    opacity: 0.2;
+  .right-sq-col{
+    padding-bottom: 15%;
   }
 
 }
@@ -167,8 +191,8 @@
   .contact{
     margin-right: 17%;
   }
-  .box2{
-    opacity: 0.2;
+   .right-sq-col{
+    padding-bottom: 15%;
   }
 
 }
@@ -190,9 +214,6 @@
     width:  315px;
     height:  315px;
   }
-  .box2{
-    opacity: 0.2;
-  }
   .right-square{
     margin-left: 8%;
     margin-right: auto;
@@ -200,6 +221,9 @@
   }
   .contact{
     margin-right: 17%;
+  }
+   .right-sq-col{
+    padding-bottom: 15%;
   }
 }
 
@@ -239,9 +263,10 @@
    .contact{
      margin-right: 17%;
    }
-   .box2{
-     opacity: 0.2;
-   }
+     .right-sq-col{
+    padding-bottom: 15%;
+  }
+
 }
 
 
@@ -278,9 +303,10 @@
    .contact{
      margin-right: 17%;
    }
-   .box2{
-     opacity: 0.2;
-   }
+     .right-sq-col{
+    padding-bottom: 15%;
+  }
+
 }
 
 /*iphone6plus landscape*/
@@ -316,9 +342,50 @@
    .contact{
      margin-right: 17%;
    }
-   .box2{
-     opacity: 0.2;
+     .right-sq-col{
+    padding-bottom: 15%;
+  }
+
+}
+
+/*iphone6plus landscape*/
+@media only screen
+  and (min-width: 414px)
+  and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+  .container-fluid {
+   min-height: 750px;
    }
+   .mh-logo-container{
+     margin-top: 5%;
+     width: 80%;
+     margin-bottom: 5%;
+      text-align: -webkit-center;
+   }
+   .left-sq-col {
+     text-align: -webkit-center;
+   }
+   .box1, .box2 {
+     width:  315px;
+     height:  315px;
+   }
+   .right-square{
+     margin-left: 29%;
+     margin-right: auto;
+     margin-top: 1%;
+   }
+   .mh-logo{
+     max-width: 400px;
+   }
+   .contact{
+     margin-right: 17%;
+   }
+
+     .right-sq-col{
+    padding-bottom: 15%;
+  }
+
 }
 
 
